@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    padding: 387px;
+    text-align: center;
+    background-image: url("../../background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    color: black;
+}
+
+.banner h1, p, button {
+    padding: 7px;
+}
+
+.banner button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background-color: #555;
+    color: white;
+}
