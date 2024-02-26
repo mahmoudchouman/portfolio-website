@@ -1,7 +1,7 @@
 .banner {
     padding: 387px;
     text-align: center;
-    background-image: url("../../background.jpeg");
+    background-image: url("../../images/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -22,6 +22,11 @@
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
+}
+
+.banner a {
+    text-decoration: none;
+    color: black;
 }
 
 .banner button:hover {
